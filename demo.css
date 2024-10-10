@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+ }
+ body{
+    padding: 0;
+    margin: 0;
+ }
+ .conteanier{
+    width: 100%;
+    /* position: relative; */
+    /* overflow-y: scroll;  */
+    border: rgb(144, 4, 244) solid 4px;
+}
+.header{
+width: 100%;
+height: auto;
+left: 0;
+top: 0;
+border: 2px solid red;
+position: fixed;
+background-color: #333;
+color: white;
+text-align: center;
+/* z-index: 1000;  */
+}
+.L-R-sub-contanier{
+    margin-top: 5.5%;
+    border: 3px solid tomato;
+    display: flex;
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+}
+.l-sub-contanier{
+    text-align: center;
+    background-color: #333;
+    border:  solid greenyellow 3px;
+    width: 25%;
+    /* height: 100vh; */
+    height: 95vh;
+    /* position: fixed; */
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+}
+.R-sub-contanier{
+    border: rgb(136, 16, 228) 2px solid;
+}
+/* .left-side-box1{
+    height: 95vh;
+    position: fixed;
+    overflow-y: scroll;
+} */
+.left-side-box1,.right-side-box2{
+    width: 100%;
+    height: auto;
+    border: solid 2px rgb(208, 147, 35);
+}
+.right-side-box2{
+    padding-left: 10px;
+}
+.profile-photo{
+    border: #222329 solid 2px;
+    width: 100%;
+    height: auto;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+    max-width: 50%;
+}
+.pointes{
+    border:  solid 2px red;
+    width: 100%;
+    height: auto;
+    color: white;
+} 
+.condidate-name{
+
+} 
+.home,.about,.Resume,.portfolio,.contect{
+    margin-top:10%;
+    border: rgb(191, 255, 0) solid 2px;
+    color: wheat;
+}
+.home-icon,.user-icon,.Resume-icon,.portfolio-icon,.contect-icon{
+    width: 100%;
+    border: rgb(254, 254, 254) solid 2px;
+    font-size: 30px;
+}
+.sty-of-text{
+    color:rgb(252, 252, 252);
+    text-decoration: none;
+}
+.content-box{
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    border:  2px solid rgb(13, 13, 14);
+}      
+.photo{
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/06/15/03/rose-blossom-8369834_1280.jpg");
+    /* background-attachment:fixed; */
+    /* background-position: top; */
+    background-size:cover;
+    /* background-repeat: repeat; */
+    height:100vh !important;
+    /* width: 100%; */
+    border: #e90c0c solid 2px;
+    /* top: 0;
+    left: 0; */
+}
+.about-of-condidate{
+    /* position: relative;
+    top: 10px; */
+    border:yellow solid 2px;
+    /* color: rgb(21, 22, 22); */
+    height:auto;
+    /* width: 100%; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    }
+    .heading{
+        /* position: absolute; */
+        /* width: 100%; */
+        border: #0635f1 solid 2px;
+        height:auto;
+    }
+    .content{
+        /* position: absolute; */
+        /* width: 100%; */
+        height: auto;
+        /* border:  solid 2px rgb(239, 40, 5); */
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .innerimage{
+        background-position: left;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* border: solid yellowgreen 2px; */
+        /* width: 25%;
+        height: 57%; */
+    }
+    .detales-1{
+        /* width: 75%; */
+        height: auto;
+        /* border: solid #1b37d6 2px; */
+        }
+        .detales-2{
+            /* border: #0f0f0f 2px solid; */
+            width: 100%;
+            height: auto;
+        }
